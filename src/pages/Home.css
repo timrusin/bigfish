@@ -22,7 +22,7 @@
     object-fit: cover;
     object-position: center;
     filter: saturate(1.25);
-    opacity: .4;
+    opacity: .3;
 }
 
 @media screen and (max-width: 1200px){
