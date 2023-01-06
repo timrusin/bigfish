@@ -2,20 +2,39 @@
     position: fixed;
     height: 100px;
     width: 100%;
-    border-bottom: rgb(0, 0, 0) 2px solid;
     display: flex;
     align-items: center;
     z-index: 9999;
+}
+
+.title-image {
+    width: 100px;
+}
+
+.title {
+    font-size: 30px;
 }
 
 .menu-icon {
     display: none;
 }
 
-@media screen and (max-width: 1225px) {
+@media screen and (max-width: 800px) {
     .navbar {
         border-bottom: none;
     
+    }
+
+    .title-image {
+        position: relative;
+        width: 90px;
+        left: 60px;
+    }
+
+    .title {
+        position: relative;
+        font-size: 18px;
+        left: 60px;
     }
     
     .menu-icon {
@@ -23,7 +42,7 @@
         flex-direction: column;
         position: absolute;
         color: rgb(0, 0, 0);
-        top: 60px;
+        top: 63px;
         left: 15px;
         font-size: 1.8rem;
         cursor: pointer;
