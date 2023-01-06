@@ -7,5 +7,41 @@
 }
 
 .big-logo {
-    width: 80%;
+    width: 50%;
+}
+
+.banner-video-container {
+    position: absolute;
+    overflow: hidden;
+    top: -25vw;
+    z-index: -1;
+}
+
+.banner-video {
+    width: 100vw;
+    object-fit: cover;
+    object-position: center;
+    filter: saturate(1.25);
+    opacity: .4;
+}
+
+@media screen and (max-width: 1200px){
+    .big-logo {
+        position: relative;
+        top: -25px;
+        width: 55%;
+    }
+} 
+
+
+@media screen and (max-width: 800px) {
+    .big-logo {
+        position: absolute;
+        top: 50px;
+        width: 85%;
+    }
+
+    .banner-video-container {
+        top: 0vw;
+    }
 }

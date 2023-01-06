@@ -17,11 +17,34 @@ const Navbar = () => {
         <Link to="/" onClick={closeMenu}>
             <img
                 className='title-image'
-                src='/assets/images/Big_Fish_Logo_Full.jpeg'
+                src='/assets/images/Big_Fish_Logo_Full.png'
                 alt="Big Fish Aquarium logo"
             ></img>
         </Link>
             <h2 className='title'>BigFishAquarium.com</h2>
+
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+            <Link className="nav-links" to="/" onClick={closeMenu}>
+                Home
+            </Link>
+            </li>
+            <li className="nav-item">
+            <Link className="nav-links" to="/store" onClick={closeMenu}>
+                Store
+            </Link>
+            </li>
+            <li className="nav-item">
+            <Link className="nav-links" to="/about" onClick={closeMenu}>
+                About
+            </Link>
+            </li>
+            <li className="nav-item">
+            <Link className="nav-links" to="/contact" onClick={closeMenu}>
+                Contact
+            </Link>
+            </li>
+        </ul>
 
 
 

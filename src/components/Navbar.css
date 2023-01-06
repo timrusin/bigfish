@@ -12,29 +12,55 @@
 }
 
 .title {
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 .menu-icon {
     display: none;
+    z-index: 999;
 }
 
-@media screen and (max-width: 800px) {
-    .navbar {
-        border-bottom: none;
-    
-    }
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 12%;
+}
 
+.nav-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin: 0 10%;
+    font-size: 1.5em;
+    z-index: 1;
+}
+
+.nav-links {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    transition: color 400ms;
+}
+
+.nav-links:hover {
+    color: rgb(56, 91, 232);
+}
+
+
+@media screen and (max-width: 800px) {
     .title-image {
+        display: none;
         position: relative;
-        width: 90px;
+        width: 60px;
         left: 60px;
     }
 
     .title {
-        position: relative;
+        position: absolute;
         font-size: 18px;
         left: 60px;
+        top: 20px
     }
     
     .menu-icon {
@@ -55,6 +81,7 @@
     
     .menu-dashes-angle1{
         position: absolute;
+        color: white;
         transform: rotate(225deg);
         top: -10px;
         left: 0;
@@ -64,11 +91,52 @@
     
     .menu-dashes-angle2{
         position: absolute;
+        color: white;
         transform: rotate(-225deg);
         top: -10px;
         left: 0;
         transition: all 500ms;
         margin: -20px 0 -20px 0;
         filter: opacity(.6);
+    }
+
+    .nav-menu {
+        width: 0px;
+        height: 100vh;
+        position: absolute;
+        left: -100px;
+        overflow: hidden;
+        transition: width 250ms ease;
+    }
+
+    .nav-menu.active {
+        width: 110px;
+        height: 100vh;
+        padding-top: 10px;
+        background-color: rgb(43, 43, 43);
+        top: -25px;
+        left: 0px;
+        transition: width 250ms ease;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-size: 1em;
+        margin-left: -25px;
+    }
+
+    .nav-item {
+        position: relative;
+        top: -280px;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    .active {
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
     }
 }
