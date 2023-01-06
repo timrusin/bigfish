@@ -40,7 +40,7 @@
 .nav-links {
     color: rgb(3, 3, 3);
     text-decoration: none;
-    transition: color 400ms;
+    transition: color 200ms;
 }
 
 .nav-links:hover {
@@ -128,7 +128,7 @@
 
     .nav-item {
         position: relative;
-        top: -280px;
+        top: -200px;
         margin-left: 20px;
         margin-top: 10px;
     }
