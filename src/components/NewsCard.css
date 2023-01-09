@@ -1,5 +1,6 @@
 .news-card {
     width: 80%;
+    border: black solid 2px;
     display: flex;
     flex-direction: column;
     text-align: center;

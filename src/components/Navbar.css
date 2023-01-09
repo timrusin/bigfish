@@ -33,19 +33,19 @@
     color: white;
     text-decoration: none;
     margin: 0 10%;
-    font-size: 1.5em;
+    font-size: 2vw;
     z-index: 1;
 }
 
 .nav-links {
     color: rgb(3, 3, 3);
     text-decoration: none;
-    transition: color 250ms;
+    transition: color 300ms;
 }
 
 .nav-links:hover {
-    color: rgb(56, 91, 232);
-    filter: drop-shadow(10px 0 10px rgb(255, 255, 255));
+    color: rgb(22, 240, 37);
+    filter: drop-shadow(10px 0 20px rgb(255, 255, 255));
 }
 
 
