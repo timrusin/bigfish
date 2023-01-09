@@ -1,9 +1,12 @@
 export const News = [
     {
         id: 4,
-        title: '',
-        date: '',
-        body: '' ,
+        title: 'Expanded Hours',
+        date: '1/9/23',
+        body1: "We are happy to announce that we are expanding our hours!" ,
+        body2: 'Monday-Friday 3-7pm',
+        body3: 'Saturday-Sunday 10-6pm',
+        body4: '',
         img: '' ,
     },
     {

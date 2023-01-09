@@ -5,6 +5,13 @@
     height: 100%;
     width: 100%;
 }
+.logo-container {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 2;
+    
+}
 
 .big-logo {
     width: 50%;
@@ -14,10 +21,11 @@
 }
 
 .banner-video-container {
-    position: absolute;
+    position: fixed;
     overflow: hidden;
+    background-color: white;
     top: -25vw;
-    z-index: -1;
+    z-index: 1;
     border-bottom: 5px solid black ;
 }
 
@@ -29,19 +37,28 @@
     opacity: .5;
 }
 
+.news-container {
+    position: absolute;
+    top: 50%;
+}
+
 @media screen and (max-width: 1200px){
     .big-logo {
         position: relative;
         top: -25px;
         width: 55%;
     }
+
+    /* .news-container {
+        position: absolute;
+        top: 60vw;
+    } */
 } 
 
 
 @media screen and (max-width: 800px) {
     .big-logo {
-        position: absolute;
-        top: 40px;
+        top: -40px;
         width: 85%;
     }
 
