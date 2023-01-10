@@ -14,7 +14,7 @@ export const News = [
         title: 'Gift Cards',
         date: '12/8/22',
         body1: 'We have both physical and digital gift cards available in our online store or at the shop',
-        body4: 'We also just finished putting away a fantastic plant shipment as well as a ton of new freshwater and saltwater fish!  We also have a few more spaces avaialble in our service department for aquarium maintenance. Contact us for details!',
+        body4: 'We also just finished putting away a fantastic plant shipment as well as a ton of new freshwater and saltwater fish!  We also have a few more spaces available in our service department for aquarium maintenance. Contact us for details!',
         img: '' ,
     },
     {

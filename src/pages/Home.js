@@ -3,8 +3,16 @@ import './Home.css'
 import News from '../data/News'
 import NewsCard from '../components/NewsCard'
 
-// const time = new Date()
-// const hour = time.getHours()
+// const contentful = require('contentful')
+
+// const client = contentful.createClient({
+//   space: '2xq1dvqt0e37',
+//   accessToken: 'd0MSl-8beDleDJkq15hOjTnuTPnN3irYkPtQp4RQA94'
+// })
+
+// client.getEntries()
+// .then((response) => console.log(response.items))
+// .catch(console.error)
 
 const Home = () => {
   return (
