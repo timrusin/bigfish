@@ -23,7 +23,7 @@
 .banner-video-container {
     position: fixed;
     overflow: hidden;
-    background-color: rgb(9, 52, 184);
+    background-color: rgb(14, 64, 215);
     top: -32vw;
     z-index: 1;
     border-bottom: 5px solid black ;

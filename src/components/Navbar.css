@@ -9,10 +9,16 @@
 
 .title-image {
     width: 100px;
+    transition: filter 300ms;
+}
+
+.title-image:hover{
+    filter: brightness(1.5);
 }
 
 .title {
     font-size: 2vw;
+    filter: drop-shadow(0 0 2px white);
 }
 
 .menu-icon {
@@ -30,7 +36,6 @@
 .nav-item {
     display: flex;
     align-items: center;
-    color: white;
     text-decoration: none;
     margin: 0 10%;
     font-size: 2vw;
@@ -38,14 +43,15 @@
 }
 
 .nav-links {
-    color: rgb(3, 3, 3);
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    transition: color 300ms;
+    filter: drop-shadow(0 0 2px white);
+    transition: color 400ms, filter 600ms;
 }
 
 .nav-links:hover {
     color: rgb(22, 240, 37);
-    filter: drop-shadow(10px 0 20px rgb(37, 249, 26));
+    filter: drop-shadow(0 15px 10px rgb(37, 249, 26));
 }
 
 
@@ -122,6 +128,7 @@
     .nav-links {
         display: flex;
         flex-direction: column;
+        filter: drop-shadow(0 0 0);
         color: white;
         font-size: 1em;
         margin-left: -25px;
