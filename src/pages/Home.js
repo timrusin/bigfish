@@ -3,6 +3,9 @@ import './Home.css'
 import News from '../data/News'
 import NewsCard from '../components/NewsCard'
 
+
+// https://www.youtube.com/watch?v=yqe5UB_BF7Q
+
 // const contentful = require('contentful')
 
 // const client = contentful.createClient({
