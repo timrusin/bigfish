@@ -3,9 +3,9 @@ import './Home.css'
 import News from '../data/News'
 import NewsCard from '../components/NewsCard'
 
-const time = new Date()
-const hour = time.getHours()
-console.log(hour);
+// const time = new Date()
+// const hour = time.getHours()
+
 const Home = () => {
   return (
     <div className='home-container'>

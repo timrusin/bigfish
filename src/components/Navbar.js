@@ -2,9 +2,8 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 
-const time = new Date()
-const hour = time.getHours()
-console.log(hour);
+// const time = new Date()
+// const hour = time.getHours()
 
 const Navbar = () => {
     const [click, setClick] = useState(false)

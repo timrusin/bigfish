@@ -9,8 +9,8 @@
     },
     {
       "src": "/assets/images/Big_Fish_Logo_Full.png",
-      "type": "image/png",
-      "sizes": "992x714"
+      "sizes": "992x714",
+      "type": "image/png"
     }
   ],
   "start_url": ".",
