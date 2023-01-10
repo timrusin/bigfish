@@ -3,6 +3,9 @@ import './Home.css'
 import News from '../data/News'
 import NewsCard from '../components/NewsCard'
 
+const time = new Date()
+const hour = time.getHours()
+console.log(hour);
 const Home = () => {
   return (
     <div className='home-container'>
@@ -28,7 +31,6 @@ const Home = () => {
         {News.map((item)=> {
           return <NewsCard key={item.id} {...item}/>
         })}
-
       </div>
 
     </div>

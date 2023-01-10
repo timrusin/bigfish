@@ -11,6 +11,7 @@ const NewsCard = (props) => {
         <p className='news-item'>{props.body1}</p>
         <h4 className='news-item'>{props.body2}</h4>
         <h4 className='news-item'>{props.body3}</h4>
+        <p className='news-item'>{props.body4}</p>
     </div>
   )
 }
