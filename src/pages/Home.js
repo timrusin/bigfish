@@ -6,17 +6,6 @@ import NewsCard from '../components/NewsCard'
 
 // https://www.youtube.com/watch?v=yqe5UB_BF7Q
 
-// const contentful = require('contentful')
-
-// const client = contentful.createClient({
-//   space: '2xq1dvqt0e37',
-//   accessToken: 'd0MSl-8beDleDJkq15hOjTnuTPnN3irYkPtQp4RQA94'
-// })
-
-// client.getEntries()
-// .then((response) => console.log(response.items))
-// .catch(console.error)
-
 const Home = () => {
   return (
     <div className='home-container'>
